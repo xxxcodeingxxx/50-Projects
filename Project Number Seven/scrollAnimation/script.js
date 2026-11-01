@@ -1,0 +1,1 @@
+console.log('Scroll Animation has been activated!!')
