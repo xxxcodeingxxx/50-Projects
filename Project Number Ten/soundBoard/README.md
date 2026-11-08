@@ -1,6 +1,7 @@
 <div align="center">
 
 # 🎛️ SoundWave
+
 ### Ten sounds. One board. Instant fun.
 
 A browser-based soundboard built with **HTML, CSS, and JavaScript**.
@@ -34,11 +35,11 @@ The planned board includes approximately **ten different sounds**, with a custom
 
 ## 🛠️ Built With
 
-| Technology | Purpose |
-| :--- | :--- |
-| **HTML** | Soundboard structure and controls |
-| **CSS** | Layout, colors, and interactive styling |
-| **JavaScript** | Audio playback and button behavior |
+| Technology     | Purpose                                 |
+| :------------- | :-------------------------------------- |
+| **HTML**       | Soundboard structure and controls       |
+| **CSS**        | Layout, colors, and interactive styling |
+| **JavaScript** | Audio playback and button behavior      |
 
 ## 🚀 Getting Started
 
@@ -72,18 +73,18 @@ soundwave/
 
 Choose your clips and replace the placeholder names as you build.
 
-| # | Sound | Suggested filename | Status |
-| :---: | :--- | :--- | :---: |
-| 01 | Sound 01 | `sound-01.mp3` | Planned |
-| 02 | Sound 02 | `sound-02.mp3` | Planned |
-| 03 | Sound 03 | `sound-03.mp3` | Planned |
-| 04 | Sound 04 | `sound-04.mp3` | Planned |
-| 05 | Sound 05 | `sound-05.mp3` | Planned |
-| 06 | Sound 06 | `sound-06.mp3` | Planned |
-| 07 | Sound 07 | `sound-07.mp3` | Planned |
-| 08 | Sound 08 | `sound-08.mp3` | Planned |
-| 09 | Sound 09 | `sound-09.mp3` | Planned |
-| 10 | Sound 10 | `sound-10.mp3` | Planned |
+|  #  | Sound    | Suggested filename     |  Status   |
+| :-: | :------- | :--------------------- | :-------: |
+| 01  | applause | `/sounds/applause.wav` | Completed |
+| 02  | boo      | `/sounds/boo.wav`      | Completed |
+| 03  | Sound 03 | `sound-03.mp3`         |  Planned  |
+| 04  | Sound 04 | `sound-04.mp3`         |  Planned  |
+| 05  | Sound 05 | `sound-05.mp3`         |  Planned  |
+| 06  | Sound 06 | `sound-06.mp3`         |  Planned  |
+| 07  | Sound 07 | `sound-07.mp3`         |  Planned  |
+| 08  | Sound 08 | `sound-08.mp3`         |  Planned  |
+| 09  | Sound 09 | `sound-09.mp3`         |  Planned  |
+| 10  | Sound 10 | `sound-10.mp3`         |  Planned  |
 
 ## 🎨 Make It Your Own
 
@@ -110,7 +111,7 @@ Edit `js/script.js` to adjust playback behavior or add controls such as volume, 
 
 ## 📷 Preview
 
-*A screenshot and live demo link will be added when the first version is ready.*
+_A screenshot and live demo link will be added when the first version is ready._
 
 <!-- When available, uncomment and update:
 ![SoundWave soundboard preview](assets/preview.png)
@@ -134,9 +135,9 @@ Third-party audio, images, fonts, and other assets retain their respective licen
 
 ### Asset Credits
 
-| Asset | Creator / Source | License | Changes |
-| :--- | :--- | :--- | :--- |
-| *Add each third-party asset here* | *Name and source link* | *License and link* | *Describe changes, if any* |
+| Asset                             | Creator / Source       | License            | Changes                    |
+| :-------------------------------- | :--------------------- | :----------------- | :------------------------- |
+| _Add each third-party asset here_ | _Name and source link_ | _License and link_ | _Describe changes, if any_ |
 
 ---
 

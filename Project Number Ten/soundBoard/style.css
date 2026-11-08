@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Isometra&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --btn-color: rgb(255, 59, 239);
+    --btn-texColor: white;
+    --btn-borderColor: rgb(87, 0, 84);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -29,4 +35,17 @@ h1 {
     font-size: 4rem;
     font-weight: 300;
     text-transform: uppercase;
+    text-align: center;
+}
+
+.btn {
+    margin-left: 2rem;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    border: solid 2px black;
+    cursor: pointer;
+    background-color: var(--btn-color);
+    color: var(--btn-texColor);
 }
