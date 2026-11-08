@@ -73,18 +73,18 @@ soundwave/
 
 Choose your clips and replace the placeholder names as you build.
 
-|  #  | Sound    | Suggested filename     |  Status   |
-| :-: | :------- | :--------------------- | :-------: |
-| 01  | applause | `/sounds/applause.wav` | Completed |
-| 02  | boo      | `/sounds/boo.wav`      | Completed |
-| 03  | Sound 03 | `sound-03.mp3`         |  Planned  |
-| 04  | Sound 04 | `sound-04.mp3`         |  Planned  |
-| 05  | Sound 05 | `sound-05.mp3`         |  Planned  |
-| 06  | Sound 06 | `sound-06.mp3`         |  Planned  |
-| 07  | Sound 07 | `sound-07.mp3`         |  Planned  |
-| 08  | Sound 08 | `sound-08.mp3`         |  Planned  |
-| 09  | Sound 09 | `sound-09.mp3`         |  Planned  |
-| 10  | Sound 10 | `sound-10.mp3`         |  Planned  |
+|  #  | Sound     | Suggested filename      |  Status   |
+| :-: | :-------- | :---------------------- | :-------: |
+| 01  | applause  | `/sounds/applause.wav`  | Completed |
+| 02  | boo       | `/sounds/boo.wav`       | Completed |
+| 03  | gasp      | `/sounds/gasp.wav`      | Completed |
+| 04  | coffee    | `/sounds/coffee.wav`    | Completed |
+| 05  | wrongCall | `/sounds/wrongCall.wav` | Completed |
+| 06  | train     | `/sounds/train.wav`     | Completed |
+| 07  | Sound 07  | `sound-07.mp3`          |  Planned  |
+| 08  | Sound 08  | `sound-08.mp3`          |  Planned  |
+| 09  | Sound 09  | `sound-09.mp3`          |  Planned  |
+| 10  | Sound 10  | `sound-10.mp3`          |  Planned  |
 
 ## 🎨 Make It Your Own
 
