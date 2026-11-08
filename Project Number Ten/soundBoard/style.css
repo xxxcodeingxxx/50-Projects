@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Isometra&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-purple {
+    background-color: rgb(65, 1, 65);
+    color: white;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
