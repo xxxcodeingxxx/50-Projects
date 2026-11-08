@@ -2,6 +2,7 @@ console.log('Sound Boarding is ready to happen 🎵🎶🔊🎷🎺🎙️')
 
 const sounds = ['applause', 'boo', 'gasp', 'coffee', 'wrongCall', 'train']
 
+
 sounds.forEach(sound => {
     const btn = document.createElement('button')
     btn.classList.add('btn')
@@ -22,5 +23,16 @@ function stopSongs() {
 
         song.pause()
         song.currentTime = 0
+        
     })
+    
 }
+
+
+const container = document.querySelector('.container')
+
+container.addEventListener('click', (event) => {
+    if (event.target === event.currentTarget) {
+    stopSongs()
+    }
+})

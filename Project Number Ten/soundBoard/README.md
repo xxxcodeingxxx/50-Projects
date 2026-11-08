@@ -29,6 +29,7 @@ The planned board includes approximately **ten different sounds**, with a custom
 
 - 🎵 **Ten sound buttons** — a small collection of distinct audio clips.
 - ⚡ **Click-to-play audio** — trigger sounds directly from the board.
+- 🛑 **Click-on-screen to stop** - click on sreen stops sound immediately.
 - 🎨 **Custom styling** — a polished interface built with CSS.
 - 📱 **Responsive layout** — a board that adapts to desktop and mobile screens.
 - 🧩 **Easy customization** — swap audio files, labels, and colors to make it your own.
