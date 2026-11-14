@@ -7,10 +7,46 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: royalblue;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    overflow: hidden;
+}
+
+.wrap {
+    width: 60%;
+    height: auto;
+    background-color: transparent;
+    text-align: center;
+}
+
+.txt {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.div-2 {
+    display: block;
+    width: 100%;
+}
+
+.btn {
+    font-size: 1.25rem;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 25px;
+    margin-left: 5px;
+    margin-top: 50px;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
 }
