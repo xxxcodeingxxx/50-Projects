@@ -1,6 +1,18 @@
 console.log('Increment Counter App Ready 1, 2, 3, 4, 5')
-
+const darkness = document.getElementById('dark')
+const lite = document.getElementById('light')
 const counters = document.querySelectorAll('.counter')
+const body = document.getElementById('body')
+
+
+darkness.addEventListener('click', () => {
+    body.classList.add('dark')
+    
+})
+
+lite.addEventListener('click', () => {
+    body.classList.remove('dark')
+})
 
 counters.forEach(counter => {
     counter.innerText = '0'

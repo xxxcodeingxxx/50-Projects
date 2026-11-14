@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Roboto Mono', monospace;
+    position: relative;
     background-color: #8e44ad;
     color: #fff;
     margin: 0;
@@ -15,6 +16,24 @@ body {
     justify-content: center;
     height: 100vh;
     overflow: hidden;
+    transition: all 0.35s ease-in-out;
+}
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
 span {
@@ -43,5 +62,13 @@ span {
 
     span {
         font-size: 1rem;
+    }
+
+    #topDog {
+        margin-top: 250px;
+    }
+
+    #last {
+        margin-bottom: 150px;
     }
 }
