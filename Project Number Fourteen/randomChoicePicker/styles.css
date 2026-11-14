@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Isometra&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Isometra&family=Lato:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Isometra&family=Muli:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Muli', sans-serif;
     margin: 0;
     height: 100vh;
     overflow: hidden;
@@ -42,11 +44,36 @@ body {
 .btn {
     font-size: 1.25rem;
     padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
+    border: 2px solid red;
     border-radius: 25px;
     margin-left: 5px;
     margin-top: 50px;
     background-color: orangered;
     color: white;
     cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+#random {
+    display: block;
+    width: 100%;
+    border: none;
+    height: 150px;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 100px;
+}
+
+.btn:hover {
+    opacity: .75;
+    transform: translateY(-4px);
+
+    
+}
+
+.highlight {
+    background-color: darkblue;
 }
