@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Random choice picker</title>
+  <rect width="64" height="64" fill="#17132f"/>
+  <path d="M32 32V5a27 27 0 0 1 27 27Z" fill="#a78bfa"/>
+  <path d="M32 32h27a27 27 0 0 1-27 27Z" fill="#22d3ee"/>
+  <path d="M32 32v27A27 27 0 0 1 5 32Z" fill="#fbbf24"/>
+  <path d="M32 32H5A27 27 0 0 1 32 5Z" fill="#fb7185"/>
+  <circle cx="32" cy="32" r="6" fill="#17132f"/>
+  <circle cx="32" cy="32" r="2.5" fill="#fff"/>
+  <path d="m25 3 7 14 7-14Z" fill="#fff" stroke="#17132f" stroke-width="2" stroke-linejoin="round"/>
+</svg>
