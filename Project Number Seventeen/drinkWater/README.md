@@ -1,8 +1,9 @@
 <div align="center">
 
-<img src="favicon.svg" width="96" height="96" alt="AquaFlow water droplet logo">
+<img src="/icons/favicon.svg" width="96" height="96" alt="AquaFlow water droplet logo">
 
 # AquaFlow
+
 ### Small sips. Steady progress. A daily goal within reach.
 
 **A daily water tracker built with HTML, CSS & JavaScript.**
@@ -29,13 +30,13 @@ Simple interactions. A refreshing design. One cup at a time.
 
 ## At a glance
 
-| Detail | Plan |
-| :--- | :--- |
-| Daily target | 2,000 mL / 2 liters |
-| Cup size | 250 mL per cup |
-| Cups to complete | 8 |
-| Technologies | HTML, CSS, vanilla JavaScript |
-| Dependencies | No framework required |
+| Detail           | Plan                          |
+| :--------------- | :---------------------------- |
+| Daily target     | 2,000 mL / 2 liters           |
+| Cup size         | 250 mL per cup                |
+| Cups to complete | 8                             |
+| Technologies     | HTML, CSS, vanilla JavaScript |
+| Dependencies     | No framework required         |
 
 **Measurement note:** A “cup” in this app means a fixed 250 mL serving. It does not mean a US customary cup.
 
@@ -58,34 +59,34 @@ Simple interactions. A refreshing design. One cup at a time.
 5. Cap the recorded total at **2,000 mL** and reset for the next day.
 
 | Cups recorded | Total consumed | Remaining | Progress |
-| :---: | :---: | :---: | :---: |
-| 0 | 0 mL | 2,000 mL | 0% |
-| 1 | 250 mL | 1,750 mL | 12.5% |
-| 2 | 500 mL | 1,500 mL | 25% |
-| 4 | 1,000 mL | 1,000 mL | 50% |
-| 6 | 1,500 mL | 500 mL | 75% |
-| 8 | 2,000 mL | 0 mL | 100% |
+| :-----------: | :------------: | :-------: | :------: |
+|       0       |      0 mL      | 2,000 mL  |    0%    |
+|       1       |     250 mL     | 1,750 mL  |  12.5%   |
+|       2       |     500 mL     | 1,500 mL  |   25%    |
+|       4       |    1,000 mL    | 1,000 mL  |   50%    |
+|       6       |    1,500 mL    |  500 mL   |   75%    |
+|       8       |    2,000 mL    |   0 mL    |   100%   |
 
 ### The math
 
 ```js
-const CUP_ML = 250
-const DAILY_GOAL_ML = 2000
+const CUP_ML = 250;
+const DAILY_GOAL_ML = 2000;
 
-const consumedML = Math.min(cupsConsumed * CUP_ML, DAILY_GOAL_ML)
-const remainingML = DAILY_GOAL_ML - consumedML
-const progressPercent = (consumedML / DAILY_GOAL_ML) * 100
+const consumedML = Math.min(cupsConsumed * CUP_ML, DAILY_GOAL_ML);
+const remainingML = DAILY_GOAL_ML - consumedML;
+const progressPercent = (consumedML / DAILY_GOAL_ML) * 100;
 ```
 
 Keep `cupsConsumed` within **0–8** so the display stays consistent.
 
 ## Built with
 
-| Technology | Responsibility |
-| :--- | :--- |
-| HTML | Semantic page structure, cup controls, and progress labels |
-| CSS | Water visuals, layout, responsive styling, and transitions |
-| JavaScript | Cup interactions, totals, goal limits, and reset behavior |
+| Technology | Responsibility                                             |
+| :--------- | :--------------------------------------------------------- |
+| HTML       | Semantic page structure, cup controls, and progress labels |
+| CSS        | Water visuals, layout, responsive styling, and transitions |
+| JavaScript | Cup interactions, totals, goal limits, and reset behavior  |
 
 ## Getting started
 
@@ -115,9 +116,9 @@ aquaflow/
 Add these lines inside your HTML `<head>`:
 
 ```html
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="icon" href="favicon.ico" sizes="64x64">
-<link rel="stylesheet" href="style.css">
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="favicon.ico" sizes="64x64" />
+<link rel="stylesheet" href="style.css" />
 <script src="script.js" defer></script>
 ```
 
@@ -127,13 +128,13 @@ Add these lines inside your HTML `<head>`:
 
 Pair a large water vessel with eight smaller cup controls. Let the water level rise as cups are recorded, while clear text communicates the same progress without relying on color alone.
 
-| Color | Hex | Suggested use |
-| :--- | :--- | :--- |
-| Deep ocean | `#082F49` | Headings and dark surfaces |
-| Ocean blue | `#0369A1` | Primary controls |
-| Bright aqua | `#22D3EE` | Water fill and progress |
-| Ice blue | `#A5F3FC` | Highlights |
-| Cloud | `#F0F9FF` | Page background |
+| Color       | Hex       | Suggested use              |
+| :---------- | :-------- | :------------------------- |
+| Deep ocean  | `#082F49` | Headings and dark surfaces |
+| Ocean blue  | `#0369A1` | Primary controls           |
+| Bright aqua | `#22D3EE` | Water fill and progress    |
+| Ice blue    | `#A5F3FC` | Highlights                 |
+| Cloud       | `#F0F9FF` | Page background            |
 
 ### Accessibility checklist
 
@@ -178,6 +179,6 @@ Replace the creator and project URL placeholders before publishing. Application 
 
 **Make every cup count. 💧**
 
-*Built one sip at a time with HTML, CSS, and JavaScript.*
+_Built one sip at a time with HTML, CSS, and JavaScript._
 
 </div>
