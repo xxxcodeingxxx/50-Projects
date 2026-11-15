@@ -167,7 +167,7 @@ Persistence and automatic daily rollover are future enhancements, not existing f
 ## Credits & license
 
 **Creator:** John Downs  
-**Project URL:** https://github.com/xxxcodeingxxx/50-Projects/tree/main/Project%20Number%20Seventeen/drinkWater#credits--license
+**Project URL:** https://github.com/xxxcodeingxxx/50-Projects/tree/main/Project%20Number%20Seventeen/drinkWater
 
 The original README text and supplied favicon artwork are offered under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/). See [LICENSE.md](LICENSE.md) and [ATTRIBUTION.md](ATTRIBUTION.md) for the notice and reusable credit text. External badges and third-party marks remain subject to their owners' terms.
 
@@ -175,7 +175,7 @@ Replace the creator and project URL placeholders before publishing. Application 
 
 ---
 
-<div align="center">
+<div align="center">1
 
 **Make every cup count. 💧**
 
