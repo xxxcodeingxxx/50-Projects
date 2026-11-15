@@ -175,7 +175,7 @@ Replace the creator and project URL placeholders before publishing. Application 
 
 ---
 
-<div align="center">1
+<div align="center">
 
 **Make every cup count. 💧**
 
