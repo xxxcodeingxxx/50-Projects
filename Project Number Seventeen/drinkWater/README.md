@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="/icons/favicon.svg" width="96" height="96" alt="AquaFlow water droplet logo">
+<img src="./icons/favicon.svg" width="96" height="96" alt="AquaFlow water droplet logo">
 
 # AquaFlow
 
