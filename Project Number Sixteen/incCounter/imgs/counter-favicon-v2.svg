@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>SocialPulse counter</title>
+  <rect x="0" y="40" width="16" height="24" rx="4" fill="#a5f3fc"/>
+  <rect x="24" y="26" width="16" height="38" rx="4" fill="#67e8f9"/>
+  <rect x="48" y="12" width="16" height="52" rx="4" fill="#22d3ee"/>
+  <path d="M4 28 28 4M12 4h16v16" fill="none" stroke="#a78bfa" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
