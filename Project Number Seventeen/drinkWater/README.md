@@ -166,8 +166,8 @@ Persistence and automatic daily rollover are future enhancements, not existing f
 
 ## Credits & license
 
-**Creator:** [Your name or organization]  
-**Project URL:** [Add your repository or live app URL]
+**Creator:** John Downs  
+**Project URL:** https://github.com/xxxcodeingxxx/50-Projects/tree/main/Project%20Number%20Seventeen/drinkWater#credits--license
 
 The original README text and supplied favicon artwork are offered under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/). See [LICENSE.md](LICENSE.md) and [ATTRIBUTION.md](ATTRIBUTION.md) for the notice and reusable credit text. External badges and third-party marks remain subject to their owners' terms.
 
