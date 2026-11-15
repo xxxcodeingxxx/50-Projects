@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Dad jokes</title>
+  <defs>
+    <linearGradient id="face" x1="0" y1="0" x2="0.8" y2="1">
+      <stop stop-color="#fde047"/>
+      <stop offset="1" stop-color="#fb923c"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="32" fill="url(#face)"/>
+  <path d="m12 24 6-5 6 5m16 0 6-5 6 5" fill="none" stroke="#422006" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M13 33h38c-1 15-8 23-19 23S14 48 13 33Z" fill="#422006"/>
+  <path d="M17 33h30l-2 7H19Z" fill="#fff"/>
+  <path d="M23 53c1-8 17-8 18 0a20 20 0 0 1-18 0Z" fill="#fb7185"/>
+</svg>
