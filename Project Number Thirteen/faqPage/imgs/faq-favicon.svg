@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>FAQ</title>
+  <defs>
+    <linearGradient id="faq-accent" x1="0" y1="0" x2="0.8" y2="1">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <path d="M6 17C6 6 17 0 32 0s26 7 26 20c0 10-6 15-15 20-5 3-5 4-5 7H24c0-10 4-14 12-19 6-3 8-5 8-9 0-4-4-6-12-6s-12 2-12 7H6Z" fill="url(#faq-accent)"/>
+  <circle cx="31" cy="57" r="7" fill="#a78bfa"/>
+</svg>
