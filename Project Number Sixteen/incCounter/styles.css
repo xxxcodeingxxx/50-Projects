@@ -23,6 +23,15 @@ body {
     color: white;
 }
 
+.lite {
+    background-color: white;
+    color: black;
+}
+
+.liten {
+    color: black !important;
+}
+
 .btn {
     background-color: transparent;
     border: none;

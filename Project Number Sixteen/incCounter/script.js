@@ -3,15 +3,30 @@ const darkness = document.getElementById('dark')
 const lite = document.getElementById('light')
 const counters = document.querySelectorAll('.counter')
 const body = document.getElementById('body')
+const buttons = document.querySelectorAll('#dark, #light, #reset')
+const reset = document.getElementById('reset')
 
+
+reset.addEventListener('click', () => {
+    location.reload()
+})
 
 darkness.addEventListener('click', () => {
     body.classList.add('dark')
+    body.classList.remove('lite')
     
+    buttons.forEach(button => {
+        button.classList.remove('liten')
+    })
 })
 
 lite.addEventListener('click', () => {
     body.classList.remove('dark')
+    body.classList.add('lite')
+    
+    buttons.forEach(button => {
+        button.classList.add('liten')
+    })
 })
 
 counters.forEach(counter => {
