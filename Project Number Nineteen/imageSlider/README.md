@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="favicon.svg" alt="FocalFlow icon" width="88" height="88" />
+<img src="./icons/favicon.svg" alt="FocalFlow icon" width="88" height="88" />
 
 # FocalFlow
 
@@ -31,13 +31,13 @@ FocalFlow pairs a focused image with a matching, slightly blurred background. Bo
 
 ## The experience
 
-| Layer | Purpose | Intended treatment |
-| :--- | :--- | :--- |
-| Foreground | Keep the photograph clear | Sharp, centered, and visually dominant |
-| Background | Carry the photograph into the scene | Same image, lightly blurred and gently dimmed |
-| Navigation | Move between moments | Previous/next buttons and an active-slide indicator |
-| Motion | Make each change feel connected | Coordinated transitions across both layers |
-| Layout | Keep the composition consistent | Shared center, dimensions, crop, and focal point |
+| Layer      | Purpose                             | Intended treatment                                  |
+| :--------- | :---------------------------------- | :-------------------------------------------------- |
+| Foreground | Keep the photograph clear           | Sharp, centered, and visually dominant              |
+| Background | Carry the photograph into the scene | Same image, lightly blurred and gently dimmed       |
+| Navigation | Move between moments                | Previous/next buttons and an active-slide indicator |
+| Motion     | Make each change feel connected     | Coordinated transitions across both layers          |
+| Layout     | Keep the composition consistent     | Shared center, dimensions, crop, and focal point    |
 
 ### Planned finishing touches
 
@@ -56,10 +56,17 @@ For literal alignment, place two copies of the image inside the same positioned 
 
 ```html
 <div class="slide-frame">
-  <img class="slide-image slide-image--backdrop"
-       src="images/slide-01.jpg" alt="" aria-hidden="true">
-  <img class="slide-image slide-image--foreground"
-       src="images/slide-01.jpg" alt="Describe this photograph.">
+  <img
+    class="slide-image slide-image--backdrop"
+    src="images/slide-01.jpg"
+    alt=""
+    aria-hidden="true"
+  />
+  <img
+    class="slide-image slide-image--foreground"
+    src="images/slide-01.jpg"
+    alt="Describe this photograph."
+  />
 </div>
 ```
 
@@ -121,22 +128,22 @@ focalflow/
 4. Add the favicon inside your HTML `<head>`:
 
    ```html
-   <link rel="icon" type="image/svg+xml" href="favicon.svg">
-   <meta name="theme-color" content="#101426">
+   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+   <meta name="theme-color" content="#101426" />
    ```
 
 5. Open `index.html` in a browser once the application files exist. If your implementation loads data with `fetch()` or uses modules that require a server, preview it through a local development server.
 
 ## Make it yours
 
-| Detail | Starting direction |
-| :--- | :--- |
-| Palette | Midnight navy, electric cyan, and soft violet |
-| Blur | Start at `8px`; adjust to suit the photograph |
-| Focal point | Change both layers' `object-position` together |
-| Framing | Change both image rectangles together |
-| Timing | Use one duration and easing for each paired slide |
-| Identity | Replace FocalFlow with your own project name if desired |
+| Detail      | Starting direction                                      |
+| :---------- | :------------------------------------------------------ |
+| Palette     | Midnight navy, electric cyan, and soft violet           |
+| Blur        | Start at `8px`; adjust to suit the photograph           |
+| Focal point | Change both layers' `object-position` together          |
+| Framing     | Change both image rectangles together                   |
+| Timing      | Use one duration and easing for each paired slide       |
+| Identity    | Replace FocalFlow with your own project name if desired |
 
 ## Before the first release
 
