@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<title>FocalFlow image slider</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
+<rect x="1" y="1" width="62" height="52" rx="9" fill="url(#g)" opacity=".3"/>
+<rect x="5" y="5" width="54" height="44" rx="7" fill="none" stroke="url(#g)" stroke-width="4"/>
+<circle cx="44" cy="18" r="6" fill="#67e8f9"/>
+<path d="m10 43 15-22 13 16 8-9 8 15Z" fill="url(#g)"/>
+<circle cx="21" cy="60" r="3" fill="#22d3ee"/>
+<circle cx="32" cy="60" r="3" fill="#a78bfa" opacity=".6"/>
+<circle cx="43" cy="60" r="3" fill="#a78bfa" opacity=".6"/>
+</svg>
