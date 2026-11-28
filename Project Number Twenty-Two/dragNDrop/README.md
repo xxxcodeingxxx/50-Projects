@@ -37,6 +37,8 @@ Once the project files are in place, open `index.html` in a browser. During deve
 | `index.html` | Tiles, drop zones, and page structure            |
 | `style.css`  | Layout, focus styles, and drag-and-drop feedback |
 | `script.js`  | Drag state, drop validation, and tile movement   |
+| `server.cjs` | Runs server: node --env-file=.env server.cjs     |
+| `.env`       | Get your own Unsplash Access Keys For Images     |
 
 ## Add the favicon
 
