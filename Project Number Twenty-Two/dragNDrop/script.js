@@ -1,16 +1,10 @@
-console.log('Drag -N- Dropping.....!!!')
-
-const accessKey = process.env.ACCESS_KEYS
-
-const response = await fetch(
-    `https://api.unsplash.com/photos/random?client_id=${accessKey}`
-)
+const response = await fetch('/api/photo')
+if (!response.ok) throw new Error('Could not load a photo')
 
 const photo = await response.json()
-
-const imageUrl = new URL(photo.urls.raw)
+const imageUrl = new URL(photo.url)
 imageUrl.searchParams.set('w', '150')
 imageUrl.searchParams.set('h', '150')
 imageUrl.searchParams.set('fit', 'crop')
 
-document.querySelector('.fill').src = imageUrl.href
+document.querySelector('.fill').style.backgroundImage = `url("${imageUrl.href}")`
